@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+              <th>Number</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>ExecuteAutomation</td>
+              <td>1</td>
+            <td>12 Jul 2019, 16:48</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+          <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+      </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+                      <tr>
+              <td class="location">Hooks.afterScenario(Scenario)</td>
+              <td>6</td>
+              <td class="duration" data-value="14706799001">14.706</td>
+              <td class="duration" data-value="14706799001">40.007</td>
+              <td class="duration" data-value="88240794009">1:28.240</td>
+              <td class="failed">66.67%</td>
+            </tr>
+                      <tr>
+              <td class="location">Hooks.beforeScenario()</td>
+              <td>6</td>
+              <td class="duration" data-value="5215697328">5.215</td>
+              <td class="duration" data-value="5215697328">6.552</td>
+              <td class="duration" data-value="31294183969">31.294</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">LoginPageStepDefs.iLogInAsFboSite()</td>
+              <td>1</td>
+              <td class="duration" data-value="6842179051">6.842</td>
+              <td class="duration" data-value="6842179051">6.842</td>
+              <td class="duration" data-value="6842179051">6.842</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">LoginPageStepDefs.i_am_in_the_ACWS_login_page_as_a_Admin_User()</td>
+              <td>2</td>
+              <td class="duration" data-value="735390822">0.735</td>
+              <td class="duration" data-value="735390822">0.808</td>
+              <td class="duration" data-value="1470781645">1.470</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">LoginPageStepDefs.i_am_in_the_ACWS_login_page_as_a_Appointing_User()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">LoginPageStepDefs.i_am_in_the_ACWS_login_page_as_a_CS_User()</td>
+              <td>3</td>
+              <td class="duration" data-value="492162172">0.492</td>
+              <td class="duration" data-value="492162172">0.772</td>
+              <td class="duration" data-value="1476486517">1.476</td>
+              <td class="failed">66.67%</td>
+            </tr>
+                      <tr>
+              <td class="location">LoginPageStepDefs.i_am_in_the_ACWS_login_page_as_a_Corb_User()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">LoginPageStepDefs.i_am_in_the_ACWS_login_page_as_a_Review_User()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">LoginPageStepDefs.i_am_in_the_ACWS_login_page_as_a_Supervisor_User()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">LoginPageStepDefs.i_click_on_Accept_Continue()</td>
+              <td>11</td>
+              <td class="duration" data-value="371821771">0.371</td>
+              <td class="duration" data-value="371821771">1.034</td>
+              <td class="duration" data-value="4090039487">4.090</td>
+              <td class="failed">45.45%</td>
+            </tr>
+                      <tr>
+              <td class="location">LoginPageStepDefs.i_click_on_Return_to_Sign_in_Page()</td>
+              <td>6</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">LoginPageStepDefs.i_logged_in_as_a_Workload_Manager_User()</td>
+              <td>1</td>
+              <td class="duration" data-value="734157643">0.734</td>
+              <td class="duration" data-value="734157643">0.734</td>
+              <td class="duration" data-value="734157643">0.734</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">LoginPageStepDefs.i_validate_seal_logo_is_displayed()</td>
+              <td>3</td>
+              <td class="duration" data-value="3000581475">3.000</td>
+              <td class="duration" data-value="3000581475">3.001</td>
+              <td class="duration" data-value="9001744425">9.001</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">NewWarrantStepDefs.iAmInTheACWSLoginPageAsAKoUserNewWarrant()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">NewWarrantStepDefs.iApproveAsAAppointingUser()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">NewWarrantStepDefs.iApproveAsACORBUser()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">NewWarrantStepDefs.iApproveWarrantApplicationBySupervisor()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">NewWarrantStepDefs.iApproveWarrantAsAReviewUser()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">NewWarrantStepDefs.iCreateNewAdminUser()</td>
+              <td>1</td>
+              <td class="duration" data-value="43824710640">43.824</td>
+              <td class="duration" data-value="43824710640">43.824</td>
+              <td class="duration" data-value="43824710640">43.824</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">NewWarrantStepDefs.iInitiateWarrantApplication()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">NewWarrantStepDefs.iReviewWarrantApplicationByCanidate()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SolicitationStepDefs.iAddMilstone()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SolicitationStepDefs.iClickOnAdditionalTabsForTC()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SolicitationStepDefs.iClickOnSaveButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SolicitationStepDefs.iClickOnTheContractFileTab()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SolicitationStepDefs.iClickOnTheOpenAndAcquireButton()</td>
+              <td>2</td>
+              <td class="duration" data-value="20005778311">20.005</td>
+              <td class="duration" data-value="20005778311">40.011</td>
+              <td class="duration" data-value="40011556623">40.011</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SolicitationStepDefs.iEnterTheFollowingOfficeData(DataTable)</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SolicitationStepDefs.iEnterTheNewContractFileData(DataTable)</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SolicitationStepDefs.iPickTheFolderForCorrectAllTheLines()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SolicitationStepDefs.iSearchAndSelectTheFollowingWorkloadAssignment(DataTable)</td>
+              <td>1</td>
+              <td class="duration" data-value="4509398747">4.509</td>
+              <td class="duration" data-value="4509398747">4.509</td>
+              <td class="duration" data-value="4509398747">4.509</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SolicitationStepDefs.iVerifyTheSaveConfirmationMessage()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SolicitationStepDefs.i_dispaly_Contract_File_Search_data()</td>
+              <td>2</td>
+              <td class="duration" data-value="152191594">0.152</td>
+              <td class="duration" data-value="152191594">0.304</td>
+              <td class="duration" data-value="304383188">0.304</td>
+              <td class="failed">50.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SolicitationStepDefs.i_fill_out_the_data_in_the_Contract_File(DataTable)</td>
+              <td>2</td>
+              <td class="duration" data-value="528499818">0.528</td>
+              <td class="duration" data-value="528499818">1.056</td>
+              <td class="duration" data-value="1056999636">1.056</td>
+              <td class="failed">50.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SolicitationStepDefs.i_navigate_to_Contract_File_Search_page()</td>
+              <td>2</td>
+              <td class="duration" data-value="25276146166">25.276</td>
+              <td class="duration" data-value="25276146166">44.293</td>
+              <td class="duration" data-value="50552292333">50.552</td>
+              <td class="failed">50.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SolicitationStepDefs.i_pick_the_following_contract_file()</td>
+              <td>2</td>
+              <td class="duration" data-value="21126244035">21.126</td>
+              <td class="duration" data-value="21126244035">42.252</td>
+              <td class="duration" data-value="42252488070">42.252</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WorkloadManagerStepDefs.iAssigneUserInTheAssigneesPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WorkloadManagerStepDefs.iEnterTheFollowingDatasLeadTimePage(DataTable)</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WorkloadManagerStepDefs.iVerifySuccessfulConfirmationMessage()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WorkloadManagerStepDefs.i_clicked_on_Sort_Task()</td>
+              <td>1</td>
+              <td class="duration" data-value="11338261270">11.338</td>
+              <td class="duration" data-value="11338261270">11.338</td>
+              <td class="duration" data-value="11338261270">11.338</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                  </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>39</td>
+            <td>74</td>
+            <td class="duration">4.554</td>
+            <td class="duration">1:28.240</td>
+            <td class="duration">5:37.000</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

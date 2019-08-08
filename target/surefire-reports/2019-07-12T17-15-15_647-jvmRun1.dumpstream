@@ -1,0 +1,117 @@
+# Created on 2019-07-12T17:17:33.565
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2019-07-15T11:17:16.789
+Unexpected IOException: 5,1,Scenario: Title of your scenario,Then I create new Admin user(Scenario: Title of your scenario),null,null,null
+
+
+# Created on 2019-07-15T11:17:17.859
+Unexpected IOException: 7,1,Scenario: Title of your scenario,Then I create new Admin user(Scenario: Title of your scenario),null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//*[@id='wfx-SystemAdministration']/button"}\000A  (Session info: chrome=74.0.3729.131)\000A  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29})\002Cplatform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000AFor documentation on this error\002C please visit: http://seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'THAIDER-F18117'\002C ip: '10.49.128.52'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_202-ea'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24...\002C userDataDir: C:\005CTemp\005Cscoped_dir14572_13188}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:55244}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C rotatable: false\002C setWindowRect: true\002C strictFileInteractability: false\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unexpectedAlertBehaviour: ignore\002C unhandledPromptBehavior: ignore\002C version: 74.0.3729.131\002C webStorageEnabled: true}\000ASession ID: c16f7ab6db4ae6811463d3fb46a63d2f\000A*** Element info: {Using=xpath\002C value=//*[@id='wfx-SystemAdministration']/button},null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//*[@id='wfx-SystemAdministration']/button"}\000A  (Session info: chrome=74.0.3729.131)\000A  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29})\002Cplatform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000AFor documentation on this error\002C please visit: http://seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'THAIDER-F18117'\002C ip: '10.49.128.52'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_202-ea'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24...\002C userDataDir: C:\005CTemp\005Cscoped_dir14572_13188}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:55244}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C rotatable: false\002C setWindowRect: true\002C strictFileInteractability: false\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unexpectedAlertBehaviour: ignore\002C unhandledPromptBehavior: ignore\002C version: 74.0.3729.131\002C webStorageEnabled: true}\000ASession ID: c16f7ab6db4ae6811463d3fb46a63d2f\000A*** Element info: {Using=xpath\002C value=//*[@id='wfx-SystemAdministration']/button},no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//*[@id='wfx-SystemAdministration']/button"}\000A  (Session info: chrome=74.0.3729.131)\000A  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29})\002Cplatform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000AFor documentation on this error\002C please visit: http://seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'THAIDER-F18117'\002C ip: '10.49.128.52'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_202-ea'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24...\002C userDataDir: C:\005CTemp\005Cscoped_dir14572_13188}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:55244}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C rotatable: false\002C setWindowRect: true\002C strictFileInteractability: false\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unexpectedAlertBehaviour: ignore\002C unhandledPromptBehavior: ignore\002C version: 74.0.3729.131\002C webStorageEnabled: true}\000ASession ID: c16f7ab6db4ae6811463d3fb46a63d2f\000A*** Element info: {Using=xpath\002C value=//*[@id='wfx-SystemAdministration']/button},org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"xpath"\002C"selector":"//*[@id='wfx-SystemAdministration']/button"}\000A  (Session info: chrome=74.0.3729.131)\000A  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29})\002Cplatform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000AFor documentation on this error\002C please visit: http://seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'THAIDER-F18117'\002C ip: '10.49.128.52'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_202-ea'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24...\002C userDataDir: C:\005CTemp\005Cscoped_dir14572_13188}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:55244}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C rotatable: false\002C setWindowRect: true\002C strictFileInteractability: false\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unexpectedAlertBehaviour: ignore\002C unhandledPromptBehavior: ignore\002C version: 74.0.3729.131\002C webStorageEnabled: true}\000ASession ID: c16f7ab6db4ae6811463d3fb46a63d2f\000A*** Element info: {Using=xpath\002C value=//*[@id='wfx-SystemAdministration']/button}\000A
+
+
+# Created on 2019-07-15T11:17:17.863
+Unexpected IOException: 7,1,Scenario: Title of your scenario,Scenario: Title of your scenario,null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//*[@id='wfx-SystemAdministration']/button"}\000A  (Session info: chrome=74.0.3729.131)\000A  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29})\002Cplatform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000AFor documentation on this error\002C please visit: http://seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'THAIDER-F18117'\002C ip: '10.49.128.52'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_202-ea'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24...\002C userDataDir: C:\005CTemp\005Cscoped_dir14572_13188}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:55244}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C rotatable: false\002C setWindowRect: true\002C strictFileInteractability: false\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unexpectedAlertBehaviour: ignore\002C unhandledPromptBehavior: ignore\002C version: 74.0.3729.131\002C webStorageEnabled: true}\000ASession ID: c16f7ab6db4ae6811463d3fb46a63d2f\000A*** Element info: {Using=xpath\002C value=//*[@id='wfx-SystemAdministration']/button},null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//*[@id='wfx-SystemAdministration']/button"}\000A  (Session info: chrome=74.0.3729.131)\000A  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29})\002Cplatform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000AFor documentation on this error\002C please visit: http://seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'THAIDER-F18117'\002C ip: '10.49.128.52'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_202-ea'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24...\002C userDataDir: C:\005CTemp\005Cscoped_dir14572_13188}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:55244}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C rotatable: false\002C setWindowRect: true\002C strictFileInteractability: false\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unexpectedAlertBehaviour: ignore\002C unhandledPromptBehavior: ignore\002C version: 74.0.3729.131\002C webStorageEnabled: true}\000ASession ID: c16f7ab6db4ae6811463d3fb46a63d2f\000A*** Element info: {Using=xpath\002C value=//*[@id='wfx-SystemAdministration']/button},no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//*[@id='wfx-SystemAdministration']/button"}\000A  (Session info: chrome=74.0.3729.131)\000A  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29})\002Cplatform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000AFor documentation on this error\002C please visit: http://seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'THAIDER-F18117'\002C ip: '10.49.128.52'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_202-ea'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24...\002C userDataDir: C:\005CTemp\005Cscoped_dir14572_13188}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:55244}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C rotatable: false\002C setWindowRect: true\002C strictFileInteractability: false\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unexpectedAlertBehaviour: ignore\002C unhandledPromptBehavior: ignore\002C version: 74.0.3729.131\002C webStorageEnabled: true}\000ASession ID: c16f7ab6db4ae6811463d3fb46a63d2f\000A*** Element info: {Using=xpath\002C value=//*[@id='wfx-SystemAdministration']/button},org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"xpath"\002C"selector":"//*[@id='wfx-SystemAdministration']/button"}\000A  (Session info: chrome=74.0.3729.131)\000A  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29})\002Cplatform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000AFor documentation on this error\002C please visit: http://seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'THAIDER-F18117'\002C ip: '10.49.128.52'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_202-ea'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24...\002C userDataDir: C:\005CTemp\005Cscoped_dir14572_13188}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:55244}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C rotatable: false\002C setWindowRect: true\002C strictFileInteractability: false\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unexpectedAlertBehaviour: ignore\002C unhandledPromptBehavior: ignore\002C version: 74.0.3729.131\002C webStorageEnabled: true}\000ASession ID: c16f7ab6db4ae6811463d3fb46a63d2f\000A*** Element info: {Using=xpath\002C value=//*[@id='wfx-SystemAdministration']/button}\000A
+
+
+# Created on 2019-07-15T11:17:17.865
+Unexpected IOException: 9,1,Scenario: Title of your scenario,And I click on Return to Sign in Page(Scenario: Title of your scenario),null,null,null
+
+
+# Created on 2019-07-15T11:17:17.867
+Unexpected IOException: 9,1,Scenario: Title of your scenario,Given I click on Accept & Continue(Scenario: Title of your scenario),null,null,null
+
+
+# Created on 2019-07-15T11:17:17.870
+Unexpected IOException: 9,1,Scenario: Title of your scenario,Then I am in the ACWS login page as a CS User(Scenario: Title of your scenario),null,null,null
+
+
+# Created on 2019-07-15T11:17:17.873
+Unexpected IOException: 9,1,Scenario: Title of your scenario,And I Initiate Warrant Application(Scenario: Title of your scenario),null,null,null
+
+
+# Created on 2019-07-15T11:17:17.876
+Unexpected IOException: 9,1,Scenario: Title of your scenario,And I click on Return to Sign in Page(Scenario: Title of your scenario),null,null,null
+
+
+# Created on 2019-07-15T11:17:17.878
+Unexpected IOException: 9,1,Scenario: Title of your scenario,Given I click on Accept & Continue(Scenario: Title of your scenario),null,null,null
+
+
+# Created on 2019-07-15T11:17:17.881
+Unexpected IOException: 9,1,Scenario: Title of your scenario,Then I am in the ACWS login page as a ko User New Warrant(Scenario: Title of your scenario),null,null,null
+
+
+# Created on 2019-07-15T11:17:17.883
+Unexpected IOException: 9,1,Scenario: Title of your scenario,And I Review Warrant Application by Canidate(Scenario: Title of your scenario),null,null,null
+
+
+# Created on 2019-07-15T11:17:17.886
+Unexpected IOException: 9,1,Scenario: Title of your scenario,And I click on Return to Sign in Page(Scenario: Title of your scenario),null,null,null
+
+
+# Created on 2019-07-15T11:17:17.888
+Unexpected IOException: 9,1,Scenario: Title of your scenario,Given I click on Accept & Continue(Scenario: Title of your scenario),null,null,null
+
+
+# Created on 2019-07-15T11:17:17.933
+Unexpected IOException: 9,1,Scenario: Title of your scenario,Then I am in the ACWS login page as a supervisor User(Scenario: Title of your scenario),null,null,null
+
+
+# Created on 2019-07-15T11:17:17.960
+Unexpected IOException: 9,1,Scenario: Title of your scenario,And I Approve Warrant Application by Supervisor(Scenario: Title of your scenario),null,null,null
+
+
+# Created on 2019-07-15T11:17:17.962
+Unexpected IOException: 9,1,Scenario: Title of your scenario,And I click on Return to Sign in Page(Scenario: Title of your scenario),null,null,null
+
+
+# Created on 2019-07-15T11:17:17.966
+Unexpected IOException: 9,1,Scenario: Title of your scenario,Given I click on Accept & Continue(Scenario: Title of your scenario),null,null,null
+
+
+# Created on 2019-07-15T11:17:17.979
+Unexpected IOException: 9,1,Scenario: Title of your scenario,And I am in the ACWS login page as a Review User(Scenario: Title of your scenario),null,null,null
+
+
+# Created on 2019-07-15T11:17:17.982
+Unexpected IOException: 9,1,Scenario: Title of your scenario,And I click on Return to Sign in Page(Scenario: Title of your scenario),null,null,null
+
+
+# Created on 2019-07-15T11:17:17.985
+Unexpected IOException: 9,1,Scenario: Title of your scenario,And I Approve Warrant as a Review User(Scenario: Title of your scenario),null,null,null
+
+
+# Created on 2019-07-15T11:17:17.987
+Unexpected IOException: 9,1,Scenario: Title of your scenario,And I click on Return to Sign in Page(Scenario: Title of your scenario),null,null,null
+
+
+# Created on 2019-07-15T11:17:17.990
+Unexpected IOException: 9,1,Scenario: Title of your scenario,Given I click on Accept & Continue(Scenario: Title of your scenario),null,null,null
+
+
+# Created on 2019-07-15T11:17:17.992
+Unexpected IOException: 9,1,Scenario: Title of your scenario,Then I am in the ACWS login page as a CORB User(Scenario: Title of your scenario),null,null,null
+
+
+# Created on 2019-07-15T11:17:17.995
+Unexpected IOException: 9,1,Scenario: Title of your scenario,And I Approve as a CORB user(Scenario: Title of your scenario),null,null,null
+
+
+# Created on 2019-07-15T11:17:18.000
+Unexpected IOException: 9,1,Scenario: Title of your scenario,Given I click on Accept & Continue(Scenario: Title of your scenario),null,null,null
+
+
+# Created on 2019-07-15T11:17:18.002
+Unexpected IOException: 9,1,Scenario: Title of your scenario,Then I am in the ACWS login page as a Appointing User(Scenario: Title of your scenario),null,null,null
+
+
+# Created on 2019-07-15T11:17:18.004
+Unexpected IOException: 9,1,Scenario: Title of your scenario,And I approve as a Appointing User(Scenario: Title of your scenario),null,null,null
+
+
